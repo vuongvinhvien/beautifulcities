@@ -1,6 +1,9 @@
 <template>
-  <div>
+  <div class="container">
+    <Logo></Logo>
+    <Nav></Nav>
     <Nuxt />
+    <Footer />
   </div>
 </template>
 
@@ -61,3 +64,16 @@ li {
   background-color: #35495e;
 }
 </style>
+<script lang="ts">
+import Vue from 'vue'
+import Logo from '@/components/Header/Logo.vue'
+import Nav from '@/components/Header/Nav.vue'
+import Footer from '@/components/Footer/Footer.vue'
+export default Vue.extend({
+  components: {
+    Logo,
+    Nav,
+    Footer,
+  },
+})
+</script>

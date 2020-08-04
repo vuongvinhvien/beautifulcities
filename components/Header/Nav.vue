@@ -1,12 +1,12 @@
 <template>
   <div class="nav">
     <ul class="nav-menu">
-      <li class="nav-menu-item"><a href="#">Home</a></li>
-      <li class="nav-menu-item"><a href="#">About</a></li>
-      <li class="nav-menu-item"><a href="#">Blog</a></li>
-      <li class="nav-menu-item"><a href="#">Gallery</a></li>
-      <li class="nav-menu-item"><a href="#">Visit</a></li>
-      <li class="nav-menu-item"><a href="#">Contact</a></li>
+      <li class="nav-menu-item"><n-link :to="'/'">Home</n-link></li>
+      <li class="nav-menu-item"><n-link :to="'/about'">About</n-link></li>
+      <li class="nav-menu-item"><n-link :to="'/blog'">Blog</n-link></li>
+      <li class="nav-menu-item"><n-link :to="'/gallery'">Gallery</n-link></li>
+      <li class="nav-menu-item"><n-link :to="'/visit'">Visit</n-link></li>
+      <li class="nav-menu-item"><n-link :to="'/contact'">Contact</n-link></li>
     </ul>
   </div>
 </template>

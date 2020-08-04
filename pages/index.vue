@@ -1,23 +1,22 @@
 <template>
-  <div class="container">
-    <Logo></Logo>
-    <Nav></Nav>
+  <div>
     <Image-Header></Image-Header>
-
+    <Journey-Way />
+    <Gallery></Gallery>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-import Logo from '@/components/Header/Logo.vue'
-import Nav from '@/components/Header/Nav.vue'
 import ImageHeader from '@/components/Header/ImageHeader.vue'
+import JourneyWay from '@/components/JourneyWay/JourneyWay.vue'
+import Gallery from '@/components/Gallery/Gallery.vue'
 
 export default Vue.extend({
   components: {
-    Logo,
-    Nav,
     ImageHeader,
+    JourneyWay,
+    Gallery,
   },
 })
 </script>
