@@ -12,7 +12,7 @@
     </div>
     <div class="way-move">
       <div class="sourneyicon">
-        <img src="../../assets/images/icon1.svg" alt="" />
+        <img src="../../assets/images/Icon1.svg" alt="" />
         <h3>TRAVEL WITH BUS</h3>
         <p>
           Vui là vì các địa danh Bourgogne và Champagne gần đây đã được UNESCO
@@ -23,7 +23,7 @@
         </p>
       </div>
       <div class="sourneyicon">
-        <img src="../../assets/images/icon2.svg" alt="" />
+        <img src="../../assets/images/Icon2.svg" alt="" />
         <h3>TRAVEL WITH AIRPLANE</h3>
         <p>
           Vui là vì các địa danh Bourgogne và Champagne gần đây đã được UNESCO
@@ -34,7 +34,7 @@
         </p>
       </div>
       <div class="sourneyicon">
-        <img src="../../assets/images/icon3.svg" alt="" />
+        <img src="../../assets/images/Icon3.svg" alt="" />
         <h3>TRAVEL WITH CAR</h3>
         <p>
           Vui là vì các địa danh Bourgogne và Champagne gần đây đã được UNESCO
